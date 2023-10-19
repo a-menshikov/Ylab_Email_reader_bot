@@ -1,5 +1,7 @@
 # Чат-бот для чтения электронной почты
 
+Выполнен в рамках стажировки в компании Y_lab, которая проходила с августа по октябрь 2023 года.
+
 Позволяет получать новые письма электронной почты в чат-боте для Telegram. Поддерживает возможность отслеживания нескольких ящиков и фильтрации писем по их отправителям.
 
 ## Основные технологии разработки продукта
@@ -8,6 +10,7 @@
 - Django 4.1 (async)
 - Aiogram
 - Celery
+- Flower
 - PostgreSQL 15
 - Redis
 - Docker
@@ -52,14 +55,6 @@
    make down
    ```
 
-## Использование ключевых внешних проектов или фреймворков
-
-TBF
-
-## Тестирование и стенды проекта
-
-TBF
-
 ## High-level design
 
 ![HLD](./readme_images/HLD.png)
@@ -86,13 +81,7 @@ TBF
 
 - После успешного запуска проекта, откройте [http://localhost:8000/api/v1/docs] для доступа к документации по api проекта
 
-## Структура веток проекта
+## Контакты
 
-- main - актуальная production ветка проекта
-- develope - ветка основной разработки
-
-## Разработчики проекта
-
-- Кириллов Дмитрий [@dmitry.kirillov](https://git.yiilab.com/dmitry.kirillov)
-- Меньшиков Артём [@artem.menshikov](https://git.yiilab.com/artem.menshikov)
-- Светлов Александр [@aleksandr.svetlov](https://git.yiilab.com/aleksandr.svetlov)
+**telegram** [@Menshikov_AS](https://t.me/Menshikov_AS)  
+**e-mail** <a.menshikov1989@gmail.com>
